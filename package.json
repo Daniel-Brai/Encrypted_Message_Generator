@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-cipher-generator",
+  "version": "1.0.0",
+  "description": "An simple console app used for generate encrypted message using a cipher",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "keywords": [
+    "Console",
+    "Cipher",
+    "Encryption"
+  ],
+  "author": "Daniel Brai",
+  "license": "ISC"
+}
