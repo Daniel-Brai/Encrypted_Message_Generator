@@ -19,8 +19,6 @@ reader.question('\nEnter the message you want to encrypt and a shift number: ', 
     // assigning the variable data from the input stream
     let data = expression
 
-    let revert = false
-
     // split by string and number using regex
     data = data.match(/(?:[^\s"]+|"[^"]*")+/g)
 
@@ -60,10 +58,7 @@ reader.question('\nEnter the message you want to encrypt and a shift number: ', 
             } catch (error) {
                 console.log(`An error occured - ${error.message}`)
             }
-        } else { 
-            process.exit(1)
-        }
-
+        } 
         reader.close()
     })
     
