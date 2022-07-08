@@ -1,3 +1,8 @@
+/**
+ *@params {String} s - The message to encrypt that is double quoted or the encrypted message to decrypt that is double quoted
+ *@params {Number} n - The shift number for the message encryption or decryption 
+*/
+
 const caesarEncoded = (s, n) => {
 	let alphabet = 'abcdefghijklmnopqrstuvwxyz'
 	let lc = alphabet.replace(/\s/g, '').toLowerCase().split('')
